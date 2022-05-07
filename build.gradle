@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "io.qameta.allure" version "2.9.6"
 }
 
 group 'guru_qa'
@@ -8,6 +9,21 @@ version '1.0'
 repositories {
     mavenCentral()
 }
+def allureVersion = "2.17.3"
+allure {
+    report {
+        version.set(allureVersion)
+    }
+    adapter {
+        aspectjWeaver.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set(allureVersion)
+            }
+        }
+    }
+}
+
     java {
         toolchain {
             languageVersion = JavaLanguageVersion.of(11)
