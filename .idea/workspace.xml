@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="079d444d-cc4b-48b4-bded-995eed562441" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/ContributorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="079d444d-cc4b-48b4-bded-995eed562441" name="Changes" comment="Test selenide 3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +60,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.ContributorsTest">
-    <configuration name="ContributorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="github" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Test">
+    <configuration name="ContributorsTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest.shouldFindSelenideAsFirstRepository" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +148,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;github.SelenideTest.shouldFindSelenideAsFirstRepository&quot;" />
+            <option value="&quot;github.Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.shouldFindSelenideAsFirstRepository" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;github.Test.shouldFindSelenideAsFirstRepository&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ContributorsTest" />
-        <item itemvalue="Gradle.ContributorsTest.solntsevShouldBeFirstContributor" />
+        <item itemvalue="Gradle.Test" />
+        <item itemvalue="Gradle.Test.shouldFindSelenideAsFirstRepository" />
         <item itemvalue="Gradle.SelenideTest (1)" />
-        <item itemvalue="Gradle.SelenideTest.shouldFindSelenideAsFirstRepository" />
+        <item itemvalue="Gradle.ContributorsTest (1)" />
+        <item itemvalue="Gradle.ContributorsTest.solntsevShouldBeFirstContributor" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +200,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651143621341</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test selenide 3">
+      <created>1651242217856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242217856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +221,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test selenide 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test selenide 3" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -194,6 +232,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/github/SelenideRepositoryTestTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/github/Test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
