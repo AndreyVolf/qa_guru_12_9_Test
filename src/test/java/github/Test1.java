@@ -1,21 +1,23 @@
 package github;
 
+import org.junit.jupiter.api.Test;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class Test {
+public class Test1 {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void shouldFindSelenideAsFirstRepository(){
         //открыть страницу github.com
-        open("https://xn--80adjzclooe.xn--p1ai/");
+        open("https://valetudo.ru/mma/news/olivejra-ya-leg-spat-v-vese-a-prosnulsya-tyazhelee-na-kilogramm");
         //ввести в поле поиска selenide  нажать Enter
-    //   $("button-11 widget-7 widget-type-button editorElement layer-type-widget").setValue("selenide").pressEnter();
-        $(".button-11").click();
-        //нажимаем на линк от первого результата поиска
+        $("[mod-search-searchword97]").setValue("mirco").pressEnter();
 
+        //нажимаем на линк от первого результата поиска
+        //$$("ul.repo-list li").first().$("a").click();
         // check: в заголовке встречается selenide/selenide
-       // $("button-11 widget-7 widget-type-button editorElement layer-type-widget").shouldHave(text("Заказать звонок")).hover().click();
+       // $("h2").shouldHave(text("selenide / selenide"));
 sleep(5000);
 
         //нажимаем на линк от первого результата поиска
