@@ -1,0 +1,11 @@
+[ {
+  "uid" : "933412e5131e869f",
+  "name" : "shouldFindSelenideAsFirstRepository()",
+  "time" : {
+    "start" : 1653050643473,
+    "stop" : 1653050657852,
+    "duration" : 14379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-J91DQPR",
+    "children" : [ {
+      "name" : "668@DESKTOP-J91DQPR.Test worker(13)",
+      "children" : [ {
+        "name" : "shouldFindSelenideAsFirstRepository()",
+        "uid" : "933412e5131e869f",
+        "parentUid" : "c722c4a8ce99f3f39ce66cf7d793b355",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653050643473,
+          "stop" : 1653050657852,
+          "duration" : 14379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c722c4a8ce99f3f39ce66cf7d793b355"
+    } ],
+    "uid" : "01fe956ce5d2703f37c8504f4e3840f1"
+  } ]
+}

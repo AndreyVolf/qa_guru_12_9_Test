@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 20 15:44:03 MSK 2022","Fri May 20 15:44:17 MSK 2022","14379","","github.Test","","github.Test","shouldFindSelenideAsFirstRepository","shouldFindSelenideAsFirstRepository()",""
